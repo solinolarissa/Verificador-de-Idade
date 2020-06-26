@@ -1,11 +1,11 @@
 body{
-   background: rgb(53, 53, 168);
+   background: rgb(51, 170, 144);
    font: normal 15pt Arial;
    
 }
 
 header{
-    color: rgb(83, 31, 31) ;
+    color: rgb(32, 30, 30) ;
     text-align: center;
 
 
@@ -26,7 +26,7 @@ div{
 }
 
 footer{
-    color: rgb(83, 31, 31);
+    color: rgb(32, 30, 30);
     text-align: center;
     font-style: italic;
 

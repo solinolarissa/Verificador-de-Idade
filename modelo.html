@@ -12,11 +12,22 @@
    </header>  
    <section>
        <div>
-           
-           </div>
-           <div id="foto">
-            <img id="imagem" src="imagemmanha.png" alt="foto do dia">
-            
+       <p>Ano de Nascimento:
+           <input type="number" name="txtano" id="txtano" min="0">
+       </p>
+       <p>Sexo: 
+           <input type="radio" name="radsex" id="masc" checked>
+           <label for="masc">Masculino</label>
+           <input type="radio" name="radsex" id="fem">
+           <label for="fem">Feminino</label>
+
+       </p>
+       <p>
+           <input type="button" value="Verificar" onclick="Verificar()">
+       </p>
+     </div>
+           <div id="res">
+            Preencha os dadosacima para ver o resultado!
        </div>
    </section>
    <footer>
